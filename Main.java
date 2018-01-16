@@ -1,4 +1,4 @@
-package phealin.mod;
+package mortalKomcraft.mod;
 
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraftforge.fluids.FluidRegistry;
@@ -9,14 +9,14 @@ import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
-import phealin.mod.init.FluidAmburiusInit;
-import phealin.mod.init.FluidCitiriusInit;
-import phealin.mod.init.SmeltingInit;
-import phealin.mod.proxy.CommonProxy;
-import phealin.mod.render.ModRenderingRegistry;
-import phealin.mod.tabs.FirstTab;
-import phealin.mod.util.Reference;
-import phealin.mod.util.handlers.RegistryHandler;
+import mortalkombcraft.mod.init.FluidAmburiusInit;
+import mortalkombcraft.mod.init.FluidCitiriusInit;
+import mortalkombcraft.mod.init.SmeltingInit;
+import mortalkombcraft.mod.proxy.CommonProxy;
+import mortalkombcraft.mod.render.ModRenderingRegistry;
+import mortalkombcraft.mod.tabs.FirstTab;
+import mortalkombcraft.mod.util.Reference;
+import mortalkombcraft.mod.util.handlers.RegistryHandler;
 
 @Mod(modid = Reference.MODID, name = Reference.NAME, version = Reference.VERSION)
 public class Main
